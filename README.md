@@ -3,6 +3,7 @@
 **Autonomous LITCOIN mining daemon for AI agents. Multi-model rotation, self-healing, zero cost to run.**
 
 [![Free Guide](https://img.shields.io/badge/Free_Guide-Download-orange)](https://calmship.gumroad.com/l/litcoin-mining-guide)
+[![x402 API](https://img.shields.io/badge/x402_API-$0.10_USDC-blue)](https://4276b5243ebb31f0-192-154-196-19.serveousercontent.com/health)
 
 ---
 
@@ -45,7 +46,27 @@ New to LITCOIN mining? Download the free step-by-step guide:
 
 **👉 [calmship.gumroad.com/l/litcoin-mining-guide](https://calmship.gumroad.com/l/litcoin-mining-guide)**
 
-Covers API key setup, running the daemon, model rotation, and heartbeat auto-restart.
+---
+
+## 🤖 x402 Agent API
+
+Agents can pay-per-call for miner config and scout reports using [x402](https://x402.org) USDC micropayments on Base. No API keys, no subscriptions.
+
+| Endpoint | Price | Returns |
+|----------|-------|---------|
+| `/health` | Free | API overview |
+| `/litcoin-config` | $0.10 USDC | Full miner config + model rotation setup |
+| `/scout-report` | $0.25 USDC | Scored Base chain protocol scout report |
+
+**Base URL:** `https://4276b5243ebb31f0-192-154-196-19.serveousercontent.com`
+
+```bash
+# Free health check
+curl https://4276b5243ebb31f0-192-154-196-19.serveousercontent.com/health
+
+# Paid endpoints return 402 — pay with USDC on Base via x402
+curl https://4276b5243ebb31f0-192-154-196-19.serveousercontent.com/litcoin-config
+```
 
 ---
 
