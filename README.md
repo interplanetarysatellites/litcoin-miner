@@ -2,6 +2,8 @@
 
 **Autonomous LITCOIN mining daemon for AI agents. Multi-model rotation, self-healing, zero cost to run.**
 
+> **⚠️ Bankr's free LLM gateway is going paid (Bankr Club).** This miner never used it — runs on free-tier Groq, OpenRouter, and local Ollama. Zero LLM costs, no subscriptions needed.
+
 [![Free Guide](https://img.shields.io/badge/Free_Guide-Download-orange)](https://calmship.gumroad.com/l/litcoin-mining-guide)
 [![x402 API](https://img.shields.io/badge/x402_API-$0.10_USDC-blue)](https://4276b5243ebb31f0-192-154-196-19.serveousercontent.com/health)
 
